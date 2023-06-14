@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./navigation.css" rel="stylesheet"/>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }  
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        } 
+    </script>
+</head>
+<head>
+    
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="logo.jpg"></div>
+        <div class="menu">
+            <div>HOME</div>
+            <div>EDUCATION</div>
+            <div class="center">CENTER
+                <div class="subcenter">
+                    <div class="skill">T3 SKILL CENTER</div>
+                    <div class="wit">T3 WIT CENTER</div>
+                    <div class="rid">T3 RID CENTER</div>
+                </div>
+            </div>
+            <div>JOB</div>
+            <div>ORGANIZATION</div>
+            <div>DONATE</div>
+        </div>
+    </nav>
+    <div class="baner">
+        <div class="con">
+            <h1>WELCOME TO TWKSAA WELFARE FOUNDATION</h1>
+            <button> Click to know more</button>
+        </div>
+     </div>
+     <div class="Hotel">
+        <div class="card">
+            <div class="title">
+                <h1></h1>
+                <div><img src="2.jpg.jpg"/></div>
+            </div>
+            <p>skill</p>
+            <div class="knowmore"><button>knowmore</button></div>
+        </div>
+        <div class="card">science</div>
+        <div class="card">technology</div>
+        <div class="card">research </div>
+        <div class="card">innovation</div>
+        <div class="card">development</div>
+    </div>
+    <div class="raj">
+        <div><img src="rajesh.jpeg"/></div>
+        <div><img src="sunil.jpeg" ></div>
+        <div><img src="vishnu.jpeg" alt=""></div>
+        
+        <p>Founder:</p>
+        <h2>Er.RAJESH PRASAD</h2>
+    </div>
+    <footer>&copy,copyright reserved to BBQ.com</footer>
+</body>
+</html>
